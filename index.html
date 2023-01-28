@@ -10,6 +10,11 @@
   <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="theme-color" content="#ffffff">
+  <style>
+    label {
+      cursor: pointer;
+    }
+  </style>
   <title>Проект GO</title>
 </head>
 
@@ -71,6 +76,93 @@
     <li><a href="wildwest.html" target="_blank">Wild west</a></li>
     <li><a href="neon.html" target="_blank">Neon style</a></li>
   </ol>
+
+  <h2>Забронировать</h2>
+  <form action="https://jsonplaceholder.typicode.com/posts" method="POST" target="_blank" style="width: 500px;">
+    <fieldset>
+      <input type="radio" name="name" id="80Vibes" value="80Vibes">
+      <label for="80Vibes">80's vibes</label>
+
+      <input type="radio" name="name" id="StarWars" value="StarWars">
+      <label for="StarWars">Star wars</label>
+
+      <input type="radio" name="name" id="WildWest" value="WildWest">
+      <label for="WildWest">Wild west</label>
+
+      <input type="radio" name="name" id="NeonStyle" value="NeonStyle">
+      <label for="NeonStyle">Neon style</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Собери набор развлечений</legend>
+      <fieldset>
+        <legend>Приставка:</legend>
+        <input type="radio" name="divice" id="playStation" value="playStation">
+        <label for="playStation">PlayStation</label>
+
+        <input type="radio" name="divice" id="segaMegaDrive" value="segaMegaDrive">
+        <label for="segaMegaDrive">Sega Mega Drive</label>
+
+        <input type="radio" name="divice" id="xBox" value="xBox">
+        <label for="xBox">X-Box One S</label>
+
+        <input type="radio" name="divice" id="dendy" value="dendy">
+        <label for="dendy">Dendy</label>
+      </fieldset>
+      <fieldset>
+        <legend>Настольные игры:</legend>
+        <input type="checkbox" name="boardGame" id="jenga" value="jenga">
+        <label for="jenga">Jenga</label>
+
+        <input type="checkbox" name="boardGame" id="monopoly" value="monopoly">
+        <label for="monopoly">Monopoly</label>
+
+        <input type="checkbox" name="boardGame" id="manchkin" value="manchkin">
+        <label for="manchkin">Манчкин</label>
+
+        <input type="checkbox" name="boardGame" id="alias" value="alias">
+        <label for="alias">Alias</label>
+      </fieldset>
+      <fieldset>
+        <legend>Дополнительно:</legend>
+        <input type="checkbox" name="additionally" id="karaoke" value="karaoke">
+        <label for="karaoke">Караоке</label>
+
+        <input type="checkbox" name="additionally" id="vr" value="vr">
+        <label for="vr">VR</label>
+      </fieldset>
+    </fieldset>
+
+    <fieldset>
+      <legend>Выбери дату и время</legend>
+      <label for="date">Дата*</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Время*</label>
+      <input type="time" id="time" name="time" required><br>
+
+      <label for="countOfPeople">Количество человек*</label>
+      <input type="number" min="1" id="countOfPeople" name="countOfPeople" required><br>
+
+      <label for="nameClient">Имя*</label>
+      <input type="text" id="nameClient" name="nameClient" required><br>
+
+      <label for="secondNameClient">Фамилия*</label>
+      <input type="text" id="secondNameClient" name="secondNameClient" required><br>
+
+      <label for="telClient">Номер телефона*</label>
+      <input type="tel" id="telClient" name="telClient" required><br>
+
+      <input type="checkbox" name="age" id="age" value="age">
+      <label for="age">Я старше 18 лет</label>
+
+
+    </fieldset>
+    <input type="submit" value="Забронировать">
+
+    <input type="checkbox" name="agree" id="agree" value="agree" required>
+    <label for="agree">Согласен на обработку данных*</label>
+  </form>
 
   <h2 id="aboutus">O Нас</h2>
   <p>
