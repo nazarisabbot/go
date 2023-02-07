@@ -1,0 +1,12 @@
+.footer__item {
+  font-style: normal;
+}
+
+.footer__link {
+  color: inherit;
+}
+
+.footer__link > svg {
+  width: 50px;
+}
+
