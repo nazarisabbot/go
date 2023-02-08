@@ -1,0 +1,40 @@
+.faq {
+  margin-bottom: 100px;
+}
+
+/* .faq__list {
+
+} */
+
+.faq__item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  color: var(--color-black-second);
+  font-weight: 700;
+  font-size: 24px;
+  padding: 30px 70px;
+  margin-bottom: 20px;
+}
+
+.faq__item:nth-child(even) > svg {
+  width: 30px;
+  height: 30px;
+  color: var(--color-white);
+  outline: 2px solid var(--color-purple);
+  border-radius: 50%;
+}
+
+.faq__item:nth-child(odd) > svg {
+  width: 30px;
+  height: 30px;
+  color: var(--color-purple);
+  outline: 2px solid var(--color-purple);
+  border-radius: 50%;
+}
+
+.faq__item:nth-child(even) {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+}
