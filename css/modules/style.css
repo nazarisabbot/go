@@ -28,6 +28,10 @@ a:hover {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 ul li {
   list-style: none;
 }
@@ -35,6 +39,11 @@ ul li {
 img {
   vertical-align: top;
   width: 100%;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -56,7 +65,7 @@ body {
 
 .wrapper {
   max-width: 1200px;
-  padding: 30px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 
