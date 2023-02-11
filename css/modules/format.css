@@ -24,7 +24,7 @@
   height: 100%;
 }
 
-.format__subtitle_h1 {
+.subtitle__h1 {
   display: block;
   font-size: 160px;
   text-align: left;
@@ -35,7 +35,7 @@
   line-height: 8rem;
 }
 
-.format__subtitle_h2 {
+.subtitle__h2 {
   display: block;
   font-weight: 400;
   font-size: 28px;
