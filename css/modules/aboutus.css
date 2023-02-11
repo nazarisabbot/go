@@ -1,5 +1,5 @@
 .aboutus {
-  margin-bottom: 100px;
+  padding: 50px 0 50px 0;
 }
 
 .aboutus__artilce {
@@ -53,6 +53,7 @@
 }
 
 .aboutus__cite {
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: end;
@@ -69,6 +70,7 @@
 
 .aboutus__author {
   display: flex;
+  width: 235px;
   flex-direction: column;
   font-style: normal;
   text-decoration: none;
