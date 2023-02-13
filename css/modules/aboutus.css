@@ -1,16 +1,36 @@
 .aboutus {
+  width: 100%;
   padding: 50px 0 50px 0;
 }
 
+.aboutus__body {
+  display: flex;
+}
+
+.aboutus__photos {
+  flex: 0 0 50%;
+  padding-right: 25px;
+}
+
+.aboutus__photos img {
+  min-width: 600px;
+  min-height: 596px;
+}
+
+.aboutus__txt {
+  flex: 1 0 50%;
+  padding-left: 25px;
+}
+
 .aboutus__artilce {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
 
-.aboutus__artilce > p {
+.aboutus__artilce > p:not(:last-child) {
   margin-bottom: 40px;
 }
 
@@ -20,12 +40,12 @@
   font-size: 44px;
   line-height: 50px;
   text-transform: uppercase;
-  margin-left: 55px;
   text-align: left;
 }
 
 .aboutus__paragraph_first {
   position: relative;
+  margin-left: 50px;
 }
 
 .aboutus__paragraph_first::after {
@@ -44,7 +64,6 @@
 
 .aboutus__paragraph_second {
   position: relative;
-  display: inline;
 }
 
 .aboutus__paragraph_second::before {
@@ -57,18 +76,8 @@
   background-position: center;
   background-size: contain;
   bottom: 20px;
-  right: -45px;
+  left: 340px;
   background-image: url("/assets/img/quotes_right.svg");
-}
-
-@media (max-width: 1102px) {
-  .aboutus__paragraph_second {
-    display: block;
-  }
-
-  .aboutus__paragraph_second::before {
-    left: 340px;
-  }
 }
 
 .aboutus__cite {
