@@ -10,12 +10,21 @@
   box-sizing: border-box;
 }
 
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
 label {
   cursor: pointer;
 }
 
 button {
   cursor: pointer;
+  background: transparent;
+  border: none;
+  outline-style: none;
 }
 
 a,
