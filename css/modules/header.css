@@ -28,7 +28,9 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 50px;
-  transition: all .2s ease-out;
+  transition-duration: .3s;
+  transition-property: color, outline-color;
+  transition-timing-function: ease-out;
 }
 
 .header__link:hover {
@@ -46,7 +48,9 @@
 .header__logo {
   min-width: 120px;
   color: var(--color-white);
-  transition: all .2s ease-out;
+  transition-duration: .2s;
+  transition-property: color;
+  transition-timing-function: ease-out;
 }
 
 .header__logo:hover {
@@ -67,6 +71,12 @@
   font-size: 22px;
   line-height: 30px;
   color: var(--color-white);
+}
+
+.header__item_buttom {
+  transition-duration: .3s;
+  transition-property: background-color, border;
+  transition-timing-function: ease-out;
 }
 
 .header__item_buttom:hover {

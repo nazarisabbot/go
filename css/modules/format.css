@@ -122,12 +122,19 @@
 }
 
 .format__arrow > svg {
+  transition-duration: .4s;
+  transition-property: color, background-color;
+  transition-timing-function: ease-out;
+  border-radius: 50%;
+}
+
+.format__arrow > svg {
   color: var(--color-white);
 }
 
 .format__arrow:hover > svg {
   color: var(--color-purple-second);
-  background: var(--color-white);
+  background-color: var(--color-white);
   border-radius: 50%;
 }
 

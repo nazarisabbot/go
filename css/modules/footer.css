@@ -74,7 +74,9 @@
   outline-offset: 3px;
   border-radius: 50%;
   color: var(--color-white);
-  transition: all .2s ease-out;
+  transition-duration: .2s;
+  transition-property: color, outline-color;
+  transition-timing-function: ease-out;
 }
 
 .footer__item_social > .footer__link:hover {

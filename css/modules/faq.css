@@ -28,6 +28,9 @@
   color: var(--color-white);
   outline: 2px solid var(--color-purple);
   border-radius: 50%;
+  transition-duration: .4s;
+  transition-property: color, background-color;
+  transition-timing-function: ease-out;
 }
 
 .faq__item:hover:nth-child(even) > svg {
@@ -41,6 +44,9 @@
   color: var(--color-purple);
   outline: 2px solid var(--color-purple);
   border-radius: 50%;
+  transition-duration: .4s;
+  transition-property: color, background-color;
+  transition-timing-function: ease-out;
 }
 
 .faq__item:hover:nth-child(odd) > svg {
