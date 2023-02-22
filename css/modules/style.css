@@ -20,6 +20,10 @@ label {
   cursor: pointer;
 }
 
+input {
+  outline: none;
+}
+
 button {
   cursor: pointer;
   background: transparent;

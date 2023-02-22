@@ -16,25 +16,10 @@
   right: 0px;
   height: 762px;
   width: 722px;
-  background-image: url(/assets/img/main_photo.png);
+  background-image: url("/assets/img/main_photo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50px;
-}
-
-.format_inner::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 3;
-  bottom: 90px;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 97px;
-  width: 97px;
-  background-image: url('/assets/img/arrow_game_over.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .format__title {
@@ -118,6 +103,42 @@
 }
 
 .format__button:hover {
-  background-color: var(--color-purple);
+  background-color: var(--active-book);
+}
+
+.format__button:active {
+  background-color: var(--active-color);
+}
+
+.format__button:focus {
+  background-color: var(--color-light-purple);
+}
+
+.format__arrow  {
+  position: absolute;
+  bottom: 85px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.format__arrow > svg {
   color: var(--color-white);
 }
+
+.format__arrow:hover > svg {
+  color: var(--color-purple-second);
+  background: var(--color-white);
+  border-radius: 50%;
+}
+
+.format__arrow:active > svg {
+  color: var(--color-white);
+  background: var(--color-light-purple);
+  border-radius: 50%;
+  outline: transparent;
+}
+
+.format__arrow:active > svg > circle {
+  stroke: none;
+}
+
