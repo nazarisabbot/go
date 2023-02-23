@@ -16,7 +16,7 @@
   right: 0px;
   height: 762px;
   width: 722px;
-  background-image: url("/assets/img/main_photo.png");
+  background-image: url("../../assets/img/main_photo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50px;

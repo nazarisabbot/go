@@ -44,19 +44,19 @@
 }
 
 .halls__item_vibes {
-  background-image: url('/assets/img/photo_01.jpg');
+  background-image: url('../../assets/img/photo_01.jpg');
 }
 
 .halls__item_wars {
-  background-image: url('/assets/img/photo_02.jpg');
+  background-image: url('../../assets/img/photo_02.jpg');
 }
 
 .halls__item_west {
-  background-image: url('/assets/img/photo_03.jpg');
+  background-image: url('../../assets/img/photo_03.jpg');
 }
 
 .halls__item_neon {
-  background-image: url('/assets/img/photo_04.jpg');
+  background-image: url('../../assets/img/photo_04.jpg');
 }
 
 .halls__link {
