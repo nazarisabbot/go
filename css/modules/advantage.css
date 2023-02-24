@@ -19,6 +19,17 @@
 .advantage__img {
   max-width: 380px;
   position: relative;
+  cursor: pointer;
+}
+
+.advantage__img > img {
+  transition-duration: .2s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.advantage__img:hover > img {
+  transform: scale(110%);
 }
 
 .advantage__subtitle {
