@@ -7,14 +7,26 @@
 }
 
 .advantage__list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px 20px;
+  height: 567px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-/* .advantage__item {
+.advantage__item {
+  flex: 0 1 calc(33.3333% - 20px);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 
-} */
+.advantage__item {
+  align-self: flex-start;
+}
+
+.advantage__item:nth-child(2) {
+  align-self: flex-end;
+}
 
 .advantage__img {
   max-width: 380px;
